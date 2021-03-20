@@ -10,7 +10,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import backgroundVideo from '../../../common/assets/onboarding.webm';
 import { _getCurrentAccount } from '../../../common/utils/selectors';
-import BisectHosting from '../../../ui/BisectHosting';
 import { openModal } from '../../../common/reducers/modals/actions';
 
 const Background = styled.div`
@@ -148,8 +147,6 @@ const Home = () => {
           `}
         >
           GDlauncher is completely free and open source. <br />
-          If you want to support us, consider renting a server on BisectHosting,
-          our official partner!
           <br />
           <br />
           <div
