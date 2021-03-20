@@ -38,6 +38,7 @@ jobs:
         run: npm config set msvs_version 2019
       - name: npm run install
         run: |
+          npm install nan
           npm i
       - name: npm run lint
         run: |
