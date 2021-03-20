@@ -18,7 +18,7 @@ import {
   updateUpdateAvailable,
   getAppLatestVersion
 } from '../../../common/reducers/actions';
-import BisectHosting from '../../../ui/BisectHosting';
+
 import Logo from '../../../ui/Logo';
 
 const SystemNavbar = () => {
