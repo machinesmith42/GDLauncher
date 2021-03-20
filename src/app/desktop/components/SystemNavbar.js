@@ -187,11 +187,7 @@ const SystemNavbar = () => {
               height: 100%;
             `}
           >
-            Partnered with &nbsp;&nbsp;
-            <BisectHosting
-              showPointerCursor
-              onClick={() => dispatch(openModal('BisectHosting'))}
-            />
+
             {/* <PulsatingCircle /> */}
           </div>
         </>
@@ -275,11 +271,6 @@ const SystemNavbar = () => {
               height: 100%;
             `}
           >
-            Partnered with &nbsp;&nbsp;
-            <BisectHosting
-              showPointerCursor
-              onClick={() => dispatch(openModal('BisectHosting'))}
-            />
             {/* <PulsatingCircle /> */}
           </div>
           <div>
